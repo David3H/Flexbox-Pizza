@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*estilos del header*/
+header{
+    background-color: black;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+.empresa, .pizza, .front{
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.empresa{
+    padding: 0 0 0 16px;
+}
+
+.pizza{
+    color: #FC200C;
+}
+
+.front{
+    color: #39B24A;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.item-nav{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*estilos del section*/
+
+section{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenido{
+    margin-bottom: 70px;
+}
+
+.textopizza{
+    margin-right: 60px;
+}
+
+.separar .contenido{
+    flex: 1;
+}
+
+.separar{
+    display: flex;
+    align-items: flex-start;
+}
+
+.podio{
+    color: #FC200C;
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.imgpodio{
+    display: flex;
+    margin-top: 66px;
+    margin-left: 90px;
+    align-items: center;
+}
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.pizzatop{
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-top: 25px;
+    margin-left: 28px;
+    font-size: 22px;
+}
+
+/*estilos del footer*/
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
